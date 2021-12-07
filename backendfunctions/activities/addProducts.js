@@ -73,7 +73,7 @@ const addProducts = async (req, res) => {
               }).catch((e) => {
                   console.log('error here...', e);
               })
-            res.redirect(302, 'http://192.168.43.211:8081/html/addProducts.html');
+            res.redirect(302, 'https://chet-store-8b54b.web.app/addProducts.html');
     });
 
 
