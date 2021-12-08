@@ -44,7 +44,7 @@ const loginUser = async (req, res) => {
     } catch(e) {
         res.status(400).json({
             message: `An error occurred`,
-            error
+            error: e
         })
     }
 }
