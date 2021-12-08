@@ -65,7 +65,7 @@ const addProducts = async (req, res) => {
                     req.body.productName,
                     req.body.productCost,
                     req.body. productDescription,
-                    `${file.public_id}${file.format}`,
+                    `${file.public_id}.${file.format}`,
                     req.body.productQuantity
                 ]);
     
